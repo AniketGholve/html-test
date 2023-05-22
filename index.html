@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        section{
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <section>
+            <h1>HTML Assignment</h1>
+            <p>HTML Assignment from PrepBytes</p>
+        </section>
+        <hr>
+        <section>
+            <p>Image used from Absolute path</p>
+            <img src="./logoPrepBytes.svg" alt="">
+            <p>Image used from Relative path</p>
+            <img src="" alt="Image">
+            <br>
+            <br>
+            <a href="https://www.prepbytes.com/" target="_blank">Link Should be open in another tab</a>
+            <br>
+            <br>
+            <a href="https://www.prepbytes.com/">Link Should be open in same tab</a>
+        </section>
+        <hr>
+    </center>
+    <section>
+        <h1>List</h1>
+        <ul style="list-style: square;">
+            <li>Mobile Development</li>
+            <li>Web Development</li>
+            <ul style="list-style: disc;">
+                <li>react</li>
+                <li>Angular</li>
+                <li>Vue</li>
+            </ul>
+            <li>Cloud Server</li>
+        </ul>
+    </section>
+    <hr>
+    <center>
+        <section>
+
+            <h1>Form</h1>
+            <form action="#">
+                <div>
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address :</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="pass">Password :</label>
+                    <input type="password" name="password" id="pass">
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone No :</label>
+                    <input type="text" name="phone" id="phone" maxlength="10" pattern="[0-9]{10}">
+                </div>
+                <br>
+                <div>
+                    <label for="lang">Language :</label>
+                    <br>
+                    <input type="radio" name="language" id="lang">React
+                    <br>
+                    <input type="radio" name="language" id="lang">Angular
+                    <br>
+                    <input type="radio" name="language" id="lang">Vue
+                    <br>
+                </div>
+                <br>
+                <div>
+                    <label for="course">Course</label>
+                    <br>
+                    <input type="checkbox" name="course1" id="course">MERN
+                    <br>
+                    <input type="checkbox" name="course2" id="course">MEAN
+                    <br>
+                    <input type="checkbox" name="course3" id="course">MEVN
+                    <br>
+                </div>
+                <br>
+                <div>
+                    <label for="field">Field</label>
+                    <select name="Field" id="field">
+                        <option value="Front End">Front End</option>
+                        <option value="Back End">Back End</option>
+                    </select>
+                </div>
+                <br>
+                <button>Submit</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h1>Table</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th colspan="2" bgcolor="gray">Contact Detail</th>
+                        <th>Date of Joining</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Elevation Academy</td>
+                        <td colspan="2">1234567890</td>
+                        <td>2 Dec 2022</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="gray">Elevation Academy</td>
+                        <td rowspan="2">1234567890</td>
+                        <td colspan="2">2 Dec 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Elevation Academy</td>
+                        <td bgcolor="gray">2 Dec 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+    </center>
+</body>
+
+</html>
